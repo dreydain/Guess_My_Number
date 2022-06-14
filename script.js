@@ -33,7 +33,6 @@ document.querySelector('.check').addEventListener('click', function () {
 	} else if (guess === secretNumber) {
 		displayMessage('🎉 Correct Number!');
 		numberDisplay(secretNumber);
-		// document.querySelector('.number').textContent = secretNumber;
 
 		document.querySelector('body').style.backgroundColor = '#60b347';
 
@@ -64,7 +63,6 @@ document.querySelector('.again').addEventListener('click', function () {
 	displayMessage('Start guessing...');
 	scoreDisplay(score);
 	numberDisplay('?');
-	// document.querySelector('.number').textContent = '?';
 	document.querySelector('.guess').value = '';
 	document.querySelector('body').style.backgroundColor = '#222';
 	document.querySelector('.number').style.width = '15rem';
