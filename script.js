@@ -34,7 +34,7 @@ document.querySelector('.check').addEventListener('click', function () {
 		displayMessage('🎉 Correct Number!');
 		numberDisplay(secretNumber);
 
-		document.querySelector('body').style.backgroundColor = '#60b347';
+		document.querySelector('body').style.backgroundColor = '#53C2E0';
 
 		document.querySelector('.number').style.width = '30rem';
 
@@ -64,6 +64,6 @@ document.querySelector('.again').addEventListener('click', function () {
 	scoreDisplay(score);
 	numberDisplay('?');
 	document.querySelector('.guess').value = '';
-	document.querySelector('body').style.backgroundColor = '#222';
+	document.querySelector('body').style.backgroundColor = '#415A61';
 	document.querySelector('.number').style.width = '15rem';
 });
